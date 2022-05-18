@@ -55,6 +55,25 @@
                 <span class="col2"><input type="text" name="id"></span>
                 <span class="col3"><button type="button" onclick="check_id()">중복체크</button></span>
             </li>
+            <li>
+                <span class="col1">비밀번호</span>
+                <span class="col2"><input type="password" name="pass"></span>
+            </li>
+            <li>
+                <span class="col1">비밀번호 확인</span>
+                <span class="col2"><input type="password" name="pass_confirm"></span>
+            </li>
+            <li>
+                <span class="col1">이름</span>
+                <span class="col2"><input type="text" name="name"></span>
+            </li>
+            <li>
+                <span class="col1">이메일</span>
+                <span class="col2"><input type="text" name="email"></span>
+            </li>
+        </ul>
+        <ul class="buttons">
+            <li></li>
         </ul>
     </form>
 </body>
